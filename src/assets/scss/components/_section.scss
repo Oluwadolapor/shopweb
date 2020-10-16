@@ -1,0 +1,20 @@
+.section{
+    &__image{
+        
+        min-height: 500px;
+        background-image: linear-gradient(rgba(108, 125, 209, 0.75), rgba(64, 67, 82, 0.75)),
+        url("https://res.cloudinary.com/oluwadolapo/image/upload/v1602597913/b5_rwgfyq.jpg");
+        object-fit: fill;
+        background-position: center;
+
+        &__caption{
+            color: $white;
+            font-size: 68px;
+            text-align: center;
+            font-weight: 800;
+            padding: 5rem 0;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $secColor;
+        }
+    }
+}
