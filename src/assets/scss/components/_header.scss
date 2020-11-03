@@ -1,7 +1,17 @@
-nav{
+.nav{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 10vh;
     background: $white;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 10vh;
+        background: $white;
+    }
+}
+ul, li{
+    text-decoration: none;
 }

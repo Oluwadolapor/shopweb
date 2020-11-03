@@ -13,6 +13,10 @@ export default function Catalogue(){
             <div className="col-4">
                 <p>gedfttdfqtwyjhk  </p>
             </div> 
+            <div className="col-4">
+                <p>gedfttdfqtwyjhk  </p>
+            </div> 
+            
         </div>
     )
 }
